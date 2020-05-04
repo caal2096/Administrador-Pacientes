@@ -1,0 +1,49 @@
+.formulario{
+	display: flex;
+	flex-direction: column;
+  width: 40%;
+  padding: 1em;
+	
+}
+
+.form-group{
+	margin: 10px;
+}
+
+.buttons{
+	background: #21c558;
+	padding: 8px 15px;
+	border-radius: 5px;
+	border:none;
+	font-weight: bold;	
+	color: white;
+}
+
+.buttons:hover{
+	background: #389858;
+	cursor: pointer;
+}
+
+html body .buttons .btn:nth-child(1) .circle {
+  background-color: #8d99ae;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 100%;
+  margin-right: 1rem;
+  position: absolute;
+  left: 1rem;
+  z-index: -1;
+  transition: 0.25s;
+}
+
+input{
+	width: 100%;
+	margin-top: 5px;
+	padding: .8em;
+	border-radius: 4px;
+	border: none;
+}
+
+textarea{
+	width: 100%
+}

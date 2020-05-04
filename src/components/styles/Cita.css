@@ -1,0 +1,11 @@
+.buttons-delete{
+  padding: 8px 15px;
+  border-radius: 5px;
+  border:none;
+  font-weight: bold;  
+  color: white;
+}
+
+.buttons-delete :hover{
+  cursor: pointer;
+}
